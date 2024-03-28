@@ -7,40 +7,41 @@ body {
 
 .main-header{
 	font-size: 20px;
+	
 }
 
 .mainBody{
-    background-image: url("9292-korean-bbq1.jpg");
+    background-image: url("9292outside.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.navbar{
-    background-color: black;
+
+.navbar {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
 	opacity: 0.8;
 }
-
-.navbar a{
+  
+.navbar a {
 	color: white;
-	display: flex;
-	flex-grow: 1;
-	padding: 14px;
+	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 30px;
-	justify-content: center;
 	transition-duration: 0.3s;
-	white-space: nowrap;
-}
 
-.navbar :hover{
+}
+  
+.link-container {
+	display: flex;
+}
+  
+
+.navbar a:hover{
 	background-color: white;
 	color: black;
 }
 
-.home-link{
-	flex-grow: 0;
-	margin-right: 50%;
-}
 html{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
