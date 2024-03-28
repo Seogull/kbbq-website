@@ -6,7 +6,7 @@ body {
 }
 
 .main-header{
-	font-size: 20px;
+	font-size: 30px;
 	
 }
 
@@ -29,7 +29,8 @@ body {
 	padding: 14px 16px;
 	text-decoration: none;
 	transition-duration: 0.3s;
-
+	min-width: 150px;
+	text-align: center;
 }
   
 .link-container {
